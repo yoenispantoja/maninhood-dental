@@ -24,13 +24,14 @@ export default function serviciosReducer(state = dataInicial, action) {
 // actions
 export const getServiciosAction = () => async (dispatch, getState) => {
   try {
-    const res = await axios.get(`${API_URL}servicio/categorias`);
+    const res = await axios.get(`${API_URL}items`);
     dispatch({
       type: GET_SERVICIOS,
-      payload: res.data.items,
+      payload: res.data ,
     });
   } catch (error) {
     console.log(error);
   }
 };
 
+ 

@@ -64,6 +64,68 @@ hr {
 	margin-bottom: 20px;
 	border: 0;
 }
+/*TopBar*/
+.btLogoArea {
+    position: relative;
+    z-index: 1;
+}
+.btMenuHorizontal .mainHeader.gutter .port {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.btMenuHorizontal .mainHeader.gutter .port {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.btMenuHorizontal .mainHeader.gutter .port {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.btMenuHorizontal .topBarInLogoArea .topBarInLogoAreaCell {
+    border: 0 solid #fdabb7; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 	
+}
+.btMenuHorizontal .topBarInLogoArea .topBarInLogoAreaCell .btIconWidget:first-child {
+    margin-left: 0;
+}
+.topBarInLogoArea div.btIconWidget, .topBarInLogoArea span.btIconWidget {
+    pointer-events: none;
+}
+.topBarInLogoArea .btIconWidget {
+    margin: 0 0 0 1.5em;
+    float: right;
+}
+.btSidebar .btIconWidget, footer .btIconWidget, .topBarInLogoArea .btIconWidget {
+    margin: 0 0 1.6em;
+    display: flex !important;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-st
+}
+.topBarInLogoArea div.btIconWidget, .topBarInLogoArea span.btIconWidget {
+    pointer-events: none;
+}
+.topBarInLogoArea .btIconWidget {
+    margin: 0 0 0 1.5em;
+    float: right;
+}
+.btSidebar .btIconWidget, footer .btIconWidget, .topBarInLogoArea .btIconWidget {
+    margin: 0 0 1.6em;
+    display: flex !important;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}	
+.btClear:after {
+    content: " ";
+    display: table;
+    width: 100%;
+    clear: both;
+}
 /* Navigation */
 #menu {
 	padding: 15px;

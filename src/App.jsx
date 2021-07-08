@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { TopBar } from './components/topBar'
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Features } from './components/features'
@@ -29,7 +30,9 @@ const store = generateStore();
 
   return (
     <Provider store={store}>
+      
       <Navigation />
+      <TopBar />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />

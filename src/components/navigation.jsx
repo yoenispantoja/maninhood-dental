@@ -19,7 +19,6 @@ export const Navigation = (props) => {
             ManinHood Dental
           </a>{' '}
         </div>
-
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
