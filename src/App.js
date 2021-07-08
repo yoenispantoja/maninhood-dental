@@ -14,6 +14,8 @@ import SmoothScroll from 'smooth-scroll'
 import { Provider } from 'react-redux'
 import generateStore from './redux/store';
 import Post from './components/posts'
+import Coty from './components/coty'
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -35,6 +37,7 @@ const store = generateStore();
       <TopBar />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
+      <Coty />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Gallery />
