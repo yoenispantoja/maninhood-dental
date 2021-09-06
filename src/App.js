@@ -32,10 +32,10 @@ const store = generateStore();
 
   return (
     <Provider store={store}>
-      
+
       <Navigation />
-      <TopBar />
       <Header data={landingPageData.Header} />
+      <TopBar />
       <Features data={landingPageData.Features} />
       <Coty />
       <About data={landingPageData.About} />
